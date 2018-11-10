@@ -312,6 +312,7 @@ GameObject:
   - component: {fileID: 672799913}
   - component: {fileID: 672799915}
   - component: {fileID: 672799916}
+  - component: {fileID: 672799912}
   m_Layer: 0
   m_Name: pikachu
   m_TagString: Untagged
@@ -319,6 +320,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &672799912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672799911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08b49b6d263594a058d96c238204d250, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &672799913
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -375,7 +388,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 672799911}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.6, y: 3.06, z: 0}
+  m_LocalPosition: {x: -0.17, y: 3.2, z: 0}
   m_LocalScale: {x: 0.0650808, y: 0.0603012, z: 1}
   m_Children:
   - {fileID: 519420032}
@@ -397,7 +410,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -988,7 +1001,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1291531292}
   m_LocalRotation: {x: -0, y: -0, z: 0.6183079, w: 0.785936}
-  m_LocalPosition: {x: 1.41, y: -0.07, z: 0}
+  m_LocalPosition: {x: 2.51, y: 0.43, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1094,7 +1107,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1416170494}
   m_LocalRotation: {x: -0, y: -0, z: 0.8307244, w: 0.55668396}
-  m_LocalPosition: {x: 1.9499997, y: -6.5299997, z: 0}
+  m_LocalPosition: {x: 3.0499997, y: -6.0299997, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1110,6 +1123,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1438759420}
   - component: {fileID: 1438759419}
+  - component: {fileID: 1438759421}
   m_Layer: 0
   m_Name: test1
   m_TagString: Untagged
@@ -1173,9 +1187,22 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1438759418}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.42, y: -0.9, z: 0}
+  m_LocalPosition: {x: 0.42, y: -0.9, z: 0.51}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1438759421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438759418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7477137773b764796bc1a13602ac2fa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Strength: 0.5
