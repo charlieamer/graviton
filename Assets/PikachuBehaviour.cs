@@ -17,7 +17,7 @@ public class PikachuBehaviour : MonoBehaviour
     void Start()
     {
         character = GetComponent<Rigidbody2D>();
-        GetComponent<Rigidbody2D>().AddForce(new Vector2(0, -1) * (gForce * accelerationSensitivity));
+        GetComponent<Rigidbody2D>().AddForce(force * (gForce));
     }
 
     // Update is called once per frame
@@ -35,7 +35,7 @@ public class PikachuBehaviour : MonoBehaviour
             force = Vector2.up;
         }
 
-        force = Vector2.Lerp(prevForce, force, acceleration * Time.deltaTime);
+        //force = Vector2.Lerp(prevForce, force, acceleration * Time.deltaTime);
 
         if (character.velocity.magnitude > maxSpeed)
         {
