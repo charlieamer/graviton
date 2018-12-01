@@ -53,4 +53,12 @@ public class PikachuBehaviour : MonoBehaviour
             Debug.Log("Here");
         }
     }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Collectable")
+        {
+            Debug.Log("Pick Up");
+            Destroy(other.gameObject, 0.5f);
+        }
+    }
 }
