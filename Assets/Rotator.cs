@@ -1,18 +1,28 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Unity.Entities;
 
 public class Rotator : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public float speed;
+}
+
+public class RotatorSystem : ComponentSystem
+{
+    struct Components
     {
-        
+        public Rotator rotator;
+        public Transform transform;
     }
 
-    // Update is called once per frame
-    void Update()
+    protected override void OnUpdate()
     {
-        
+        float deltaTime = Time.deltaTime;
+
+        foreach (var e in GetEntities<Components>())
+        {
+            e.transform.Rotate(0f, 0f, e.rotator.speed * deltaTime);
+        }
     }
 }
