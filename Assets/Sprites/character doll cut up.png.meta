@@ -98,12 +98,12 @@ TextureImporter:
       name: character doll cut up_0
       rect:
         serializedVersion: 2
-        x: 140
-        y: 1623
-        width: 260
-        height: 298
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 133
+        y: 1616
+        width: 274
+        height: 312
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -118,12 +118,12 @@ TextureImporter:
       name: character doll cut up_1
       rect:
         serializedVersion: 2
-        x: 599
-        y: 1627
-        width: 257
-        height: 295
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 594
+        y: 1622
+        width: 267
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -138,12 +138,12 @@ TextureImporter:
       name: character doll cut up_2
       rect:
         serializedVersion: 2
-        x: 1112
-        y: 1376
-        width: 335
-        height: 477
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1105
+        y: 1369
+        width: 349
+        height: 491
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -158,12 +158,12 @@ TextureImporter:
       name: character doll cut up_3
       rect:
         serializedVersion: 2
-        x: 109
-        y: 1190
-        width: 323
-        height: 369
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 102
+        y: 1185
+        width: 337
+        height: 381
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49737534}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -178,12 +178,12 @@ TextureImporter:
       name: character doll cut up_4
       rect:
         serializedVersion: 2
-        x: 598
-        y: 1190
-        width: 323
-        height: 369
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 590.5
+        y: 1185
+        width: 337
+        height: 381
+      alignment: 9
+      pivot: {x: 0.5014837, y: 0.49737534}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -198,12 +198,12 @@ TextureImporter:
       name: character doll cut up_5
       rect:
         serializedVersion: 2
-        x: 1117
-        y: 621
-        width: 349
-        height: 697
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1118
+        y: 614
+        width: 348
+        height: 711
+      alignment: 9
+      pivot: {x: 0.49856323, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -218,12 +218,12 @@ TextureImporter:
       name: character doll cut up_6
       rect:
         serializedVersion: 2
-        x: 127
-        y: 645
-        width: 321
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 122.5
+        y: 638
+        width: 334
+        height: 526
+      alignment: 9
+      pivot: {x: 0.494012, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -238,12 +238,12 @@ TextureImporter:
       name: character doll cut up_7
       rect:
         serializedVersion: 2
-        x: 580
-        y: 645
-        width: 321
-        height: 512
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 573
+        y: 638
+        width: 334
+        height: 526
+      alignment: 9
+      pivot: {x: 0.50149703, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -278,12 +278,12 @@ TextureImporter:
       name: character doll cut up_9
       rect:
         serializedVersion: 2
-        x: 18
-        y: 38
-        width: 448
-        height: 549
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 10.500015
+        y: 31
+        width: 461
+        height: 561
+      alignment: 9
+      pivot: {x: 0.5021692, y: 0.50178254}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -298,12 +298,12 @@ TextureImporter:
       name: character doll cut up_10
       rect:
         serializedVersion: 2
-        x: 622
-        y: 37
-        width: 448
-        height: 549
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 616
+        y: 30
+        width: 461
+        height: 562
+      alignment: 9
+      pivot: {x: 0.4989154, y: 0.50088966}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -325,6 +325,6 @@ TextureImporter:
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
-  userData: 
+  userData: 636793570349598349
   assetBundleName: 
   assetBundleVariant: 
