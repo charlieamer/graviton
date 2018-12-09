@@ -155,10 +155,10 @@ HingeJoint2D:
   m_Motor:
     m_MotorSpeed: 0
     m_MaximumMotorForce: 10000
-  m_UseLimits: 0
+  m_UseLimits: 1
   m_AngleLimits:
     m_LowerAngle: 0
-    m_UpperAngle: 180
+    m_UpperAngle: 90
 --- !u!1 &5032507384684209316
 GameObject:
   m_ObjectHideFlags: 0
@@ -314,8 +314,8 @@ HingeJoint2D:
     m_MaximumMotorForce: 10000
   m_UseLimits: 1
   m_AngleLimits:
-    m_LowerAngle: -60
-    m_UpperAngle: 60
+    m_LowerAngle: -20
+    m_UpperAngle: 20
 --- !u!1 &5032507384845433233
 GameObject:
   m_ObjectHideFlags: 0
@@ -472,8 +472,8 @@ HingeJoint2D:
     m_MaximumMotorForce: 10000
   m_UseLimits: 1
   m_AngleLimits:
-    m_LowerAngle: -60
-    m_UpperAngle: 60
+    m_LowerAngle: -20
+    m_UpperAngle: 20
 --- !u!1 &5032507385032593353
 GameObject:
   m_ObjectHideFlags: 0
@@ -632,8 +632,8 @@ HingeJoint2D:
     m_MaximumMotorForce: 10000
   m_UseLimits: 1
   m_AngleLimits:
-    m_LowerAngle: -20
-    m_UpperAngle: 20
+    m_LowerAngle: -10
+    m_UpperAngle: 10
 --- !u!1 &5032507385060381427
 GameObject:
   m_ObjectHideFlags: 0
@@ -686,6 +686,7 @@ GameObject:
   - component: {fileID: 5032507385177583271}
   - component: {fileID: 5032507385177583268}
   - component: {fileID: 5032507385177583269}
+  - component: {fileID: 3304066381660092333}
   m_Layer: 0
   m_Name: Torso
   m_TagString: Untagged
@@ -802,6 +803,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.36, y: 5.49}
   m_EdgeRadius: 0
+--- !u!114 &3304066381660092333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5032507385177583273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08b49b6d263594a058d96c238204d250, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gForce: -9.8
+  accelerationSensitivity: 40
+  maxSpeed: 10
+  acceleration: 1.5
+  force: {x: 0, y: 0}
 --- !u!1 &5032507385296306685
 GameObject:
   m_ObjectHideFlags: 0
@@ -956,10 +974,10 @@ HingeJoint2D:
   m_Motor:
     m_MotorSpeed: 0
     m_MaximumMotorForce: 10000
-  m_UseLimits: 0
+  m_UseLimits: 1
   m_AngleLimits:
     m_LowerAngle: 0
-    m_UpperAngle: 180
+    m_UpperAngle: 90
 --- !u!1 &5032507385415164748
 GameObject:
   m_ObjectHideFlags: 0
@@ -1119,8 +1137,8 @@ HingeJoint2D:
     m_MaximumMotorForce: 10000
   m_UseLimits: 1
   m_AngleLimits:
-    m_LowerAngle: 0
-    m_UpperAngle: 40
+    m_LowerAngle: -10
+    m_UpperAngle: 10
 --- !u!1 &5032507385729507184
 GameObject:
   m_ObjectHideFlags: 0
@@ -1283,8 +1301,8 @@ HingeJoint2D:
     m_MaximumMotorForce: 10000
   m_UseLimits: 1
   m_AngleLimits:
-    m_LowerAngle: 0
-    m_UpperAngle: 40
+    m_LowerAngle: -10
+    m_UpperAngle: 10
 --- !u!1 &5032507385922120802
 GameObject:
   m_ObjectHideFlags: 0
@@ -1298,7 +1316,6 @@ GameObject:
   - component: {fileID: 5032507385922120800}
   - component: {fileID: 5032507385922120862}
   - component: {fileID: 5032507385922120863}
-  - component: {fileID: 5032507385922120860}
   m_Layer: 0
   m_Name: Head
   m_TagString: Untagged
@@ -1427,25 +1444,8 @@ HingeJoint2D:
     m_MaximumMotorForce: 10000
   m_UseLimits: 1
   m_AngleLimits:
-    m_LowerAngle: 0
-    m_UpperAngle: 40
---- !u!114 &5032507385922120860
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5032507385922120802}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08b49b6d263594a058d96c238204d250, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gForce: -9.8
-  accelerationSensitivity: 16.08
-  maxSpeed: 10
-  acceleration: 1.5
-  force: {x: 0, y: 0}
+    m_LowerAngle: -10
+    m_UpperAngle: 10
 --- !u!1 &5032507386516650930
 GameObject:
   m_ObjectHideFlags: 0
@@ -1605,5 +1605,5 @@ HingeJoint2D:
     m_MaximumMotorForce: 10000
   m_UseLimits: 1
   m_AngleLimits:
-    m_LowerAngle: -20
-    m_UpperAngle: 20
+    m_LowerAngle: -10
+    m_UpperAngle: 10

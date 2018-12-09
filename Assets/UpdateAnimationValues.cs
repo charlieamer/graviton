@@ -4,27 +4,17 @@ using UnityEngine;
 
 public class UpdateAnimationValues : MonoBehaviour
 {
-    public Animator animator;
-    private float LastXPosition;
-    private float CurrentXPosition;
-    private float Speed;
+    public GameObject Player;
 
     // Start is called before the first frame update
     void Start()
     {
-        LastXPosition = transform.position.x;
-        CurrentXPosition = transform.position.x;
+        Player = GameObject.Find("Head");
     }
 
     // Update is called once per frame
     void Update()
     {
-        LastXPosition = CurrentXPosition;
-        CurrentXPosition = transform.position.x;
-        Speed = (CurrentXPosition - LastXPosition) * 10 ;
-      
-   
-        transform.rotation = new Quaternion(0f, 0f, 0f, 1);
-        animator.SetFloat("Speed", Speed);
+        transform.position = new Vector3(Player.transform.position.x, Player.transform.position.y, transform.position.z);
     }
 }
