@@ -333,6 +333,7 @@ GameObject:
   - component: {fileID: 380503528}
   - component: {fileID: 380503527}
   - component: {fileID: 380503526}
+  - component: {fileID: 380503529}
   m_Layer: 0
   m_Name: coin (2)
   m_TagString: Collectable
@@ -418,6 +419,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &380503529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380503525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf10cdea1344482e91a4f2b58506b77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &388031030
 GameObject:
   m_ObjectHideFlags: 0
@@ -669,6 +682,7 @@ GameObject:
   - component: {fileID: 1065303196}
   - component: {fileID: 1065303195}
   - component: {fileID: 1065303194}
+  - component: {fileID: 1065303197}
   m_Layer: 0
   m_Name: coin
   m_TagString: Collectable
@@ -754,6 +768,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1065303197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1065303193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf10cdea1344482e91a4f2b58506b77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1381773168
 GameObject:
   m_ObjectHideFlags: 0
@@ -765,6 +791,7 @@ GameObject:
   - component: {fileID: 1381773171}
   - component: {fileID: 1381773170}
   - component: {fileID: 1381773169}
+  - component: {fileID: 1381773172}
   m_Layer: 0
   m_Name: coin (1)
   m_TagString: Collectable
@@ -850,6 +877,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1381773172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381773168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf10cdea1344482e91a4f2b58506b77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1796533576
 GameObject:
   m_ObjectHideFlags: 0

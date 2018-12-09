@@ -5,7 +5,8 @@ using Unity.Entities;
 
 public class Rotator : MonoBehaviour
 {
-    public float speed;
+    public float translationSpeed = 1f;
+    public float rotationSpeed = 100f;
 }
 
 public class RotatorSystem : ComponentSystem
@@ -14,6 +15,7 @@ public class RotatorSystem : ComponentSystem
     {
         public Rotator rotator;
         public Transform transform;
+        public Transform originalPosition;
     }
 
     protected override void OnUpdate()
@@ -22,7 +24,8 @@ public class RotatorSystem : ComponentSystem
 
         foreach (var e in GetEntities<Components>())
         {
-            e.transform.Rotate(0f, 0f, e.rotator.speed * deltaTime);
+            //e.transform.Translate(e.rotator.translationSpeed * deltaTime, 0f, 0f);
+            e.transform.Rotate(0, e.rotator.rotationSpeed * deltaTime, 0);
         }
     }
 }
