@@ -16,7 +16,8 @@ public class PikachuBehaviour : MonoBehaviour
     private Vector2 prevForce;
 
     
-    private float stamina = 5, maxStamina = 5;
+    private float stamina = 5;
+    public float maxStamina = 5;
 
     private int collected;
     private int collectables = 5;
@@ -42,6 +43,8 @@ public class PikachuBehaviour : MonoBehaviour
         staminaBarLow = GameObject.Find("low").GetComponent<Image>();
 
         finish.SetActive(false);
+
+        stamina = maxStamina;
     }
 
     // Update is called once per frame

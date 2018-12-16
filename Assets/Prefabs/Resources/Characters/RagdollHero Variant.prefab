@@ -77,5 +77,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 3304066381660092333, guid: d41d500704ee0044c8b5280589fd98b3,
+        type: 3}
+      propertyPath: maxStamina
+      value: 30
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d41d500704ee0044c8b5280589fd98b3, type: 3}
