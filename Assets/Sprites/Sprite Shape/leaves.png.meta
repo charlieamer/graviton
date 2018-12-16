@@ -1,18 +1,15 @@
 fileFormatVersion: 2
-guid: 436d2b5f0c4a01d4cbe078d861e208a7
+guid: cbf2d33ff8934a74dacf3b8d9100a6dd
 TextureImporter:
   fileIDToRecycleName:
-    21300000: character doll cut up_0
-    21300002: character doll cut up_1
-    21300004: character doll cut up_2
-    21300006: character doll cut up_3
-    21300008: character doll cut up_4
-    21300010: character doll cut up_5
-    21300012: character doll cut up_6
-    21300014: character doll cut up_7
-    21300016: character doll cut up_8
-    21300018: character doll cut up_9
-    21300020: character doll cut up_10
+    21300000: leaves_0
+    21300002: leaves_1
+    21300004: leaves_2
+    21300006: leaves_3
+    21300008: leaves_4
+    21300010: leaves_5
+    21300012: leaves_6
+    21300014: leaves_7
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -91,225 +88,187 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: character doll cut up_0
+      name: leaves_0
       rect:
         serializedVersion: 2
-        x: 133
-        y: 1616
-        width: 274
-        height: 312
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ea51ca6da6182cf41a12f8609db47261
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character doll cut up_1
-      rect:
-        serializedVersion: 2
-        x: 594
-        y: 1622
-        width: 267
-        height: 305
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cb87798a7410cfd49b2dd8107196f4d1
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character doll cut up_2
-      rect:
-        serializedVersion: 2
-        x: 1105
-        y: 1369
-        width: 349
-        height: 491
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f0d9a60ce5ac1e942b290c16271a56ff
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character doll cut up_3
-      rect:
-        serializedVersion: 2
-        x: 102
-        y: 1185
-        width: 337
-        height: 381
-      alignment: 9
-      pivot: {x: 0.5, y: 0.49737534}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 47ce683eebaf13d4b81f9d65a7293c1c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character doll cut up_4
-      rect:
-        serializedVersion: 2
-        x: 590.5
-        y: 1185
-        width: 337
-        height: 381
-      alignment: 9
-      pivot: {x: 0.5014837, y: 0.49737534}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3600ec8b3f603f04a8ae41a75dedde4b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character doll cut up_5
-      rect:
-        serializedVersion: 2
-        x: 1118
-        y: 614
-        width: 348
-        height: 711
-      alignment: 9
-      pivot: {x: 0.49856323, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6fecb8e5fc1490b45bba698672b4e6ff
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character doll cut up_6
-      rect:
-        serializedVersion: 2
-        x: 122.5
-        y: 638
-        width: 334
-        height: 526
-      alignment: 9
-      pivot: {x: 0.494012, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aceae4bfc7c7e22429071b37a22840f1
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character doll cut up_7
-      rect:
-        serializedVersion: 2
-        x: 573
-        y: 638
-        width: 334
-        height: 526
-      alignment: 9
-      pivot: {x: 0.50149703, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 66805c8db455add439867e875112cecd
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character doll cut up_8
-      rect:
-        serializedVersion: 2
-        x: 280
-        y: 635
-        width: 6
-        height: 6
+        x: 20
+        y: 1471
+        width: 771
+        height: 532
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe9bc9dce6f1afb4bace432ae3e52242
+      spriteID: a66da8c02421b6040846a38d529b8cd1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character doll cut up_9
+      name: leaves_1
       rect:
         serializedVersion: 2
-        x: 10.500015
-        y: 31
-        width: 461
-        height: 561
-      alignment: 9
-      pivot: {x: 0.5021692, y: 0.50178254}
+        x: 816
+        y: 1393
+        width: 745
+        height: 582
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 780c19db3593e1746bf3e9d85efe71e8
+      spriteID: 78f7a24a37b74cd44a4ac16fa9397b09
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character doll cut up_10
+      name: leaves_2
       rect:
         serializedVersion: 2
-        x: 616
-        y: 30
-        width: 461
-        height: 562
-      alignment: 9
-      pivot: {x: 0.4989154, y: 0.50088966}
+        x: 1641
+        y: 1430
+        width: 727
+        height: 565
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fd87795d421f134c841f6f7f99ad509
+      spriteID: a45920f92fa2f9f4bb6e50a3808b90db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves_3
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 703
+        width: 785
+        height: 559
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232a326c5de7baf49bcb103269a37896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves_4
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 713
+        width: 661
+        height: 557
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7875d2f8569e34c9a578d5dddedb28
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves_5
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 744
+        width: 706
+        height: 496
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313a05a940241524f9d04e246efd90b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves_6
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 16
+        width: 810
+        height: 575
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8a04419e0315d49b155eeba33b967a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves_7
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 0
+        width: 728
+        height: 566
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e3804a7035bd3b4aac3c52c11d33eac
       vertices: []
       indices: 
       edges: []
@@ -317,7 +276,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5308340a002a09849b1b363f595d8c0a
     vertices: []
     indices: 
     edges: []
@@ -325,6 +284,6 @@ TextureImporter:
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
-  userData: 636793570349598349
+  userData: 
   assetBundleName: 
   assetBundleVariant: 
