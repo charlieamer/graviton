@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PikachuBehaviour : MonoBehaviour
 {
@@ -9,11 +10,22 @@ public class PikachuBehaviour : MonoBehaviour
     public float accelerationSensitivity = 5.0f;
     public float maxSpeed = 10.0f;
     public float acceleration = 1.5f;
+
     public Vector2 force;
     private Rigidbody2D character;
     private Vector2 prevForce;
 
+    
     private float stamina = 5, maxStamina = 5;
+
+    private int collected;
+    private int collectables = 5;
+
+    private GameObject finish;
+
+    private Image staminaBarFull;
+    private Image staminaBarLow;
+
 
     private Rect staminaRect;
     private Texture2D staminaTexture;
@@ -24,10 +36,12 @@ public class PikachuBehaviour : MonoBehaviour
         character = GetComponent<Rigidbody2D>();
         GetComponent<Rigidbody2D>().AddForce(force * (gForce));
 
-        staminaRect = new Rect(Screen.width / 10, Screen.height * 9 / 10, Screen.width / 3, Screen.height / 50);
-        staminaTexture = new Texture2D(1, 1);
-        staminaTexture.SetPixel(0, 0, Color.white);
-        staminaTexture.Apply();
+        finish = GameObject.FindGameObjectWithTag("Finish");
+
+        staminaBarFull = GameObject.Find("full").GetComponent<Image>();
+        staminaBarLow = GameObject.Find("low").GetComponent<Image>();
+
+        finish.SetActive(false);
     }
 
     // Update is called once per frame
@@ -39,10 +53,9 @@ public class PikachuBehaviour : MonoBehaviour
         }
         if (Input.GetAxis("Horizontal") == -1 || Input.GetAxis("Horizontal") == 1 || Input.GetAxis("Vertical") == -1 || Input.GetAxis("Vertical") == 1)
         {
-            Debug.Log("Stamina");
             if (stamina > 0)
             {
-                stamina -= 0.1f;
+                stamina -= 0.05f;
             }
         }
         else
@@ -73,29 +86,45 @@ public class PikachuBehaviour : MonoBehaviour
             character.AddForce(force * (gForce));
         }
         prevForce = force;
+
+        // checking game finish update
+        if (collected == collectables)
+        {
+            finish.SetActive(true);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.name == "portal-sprites_0")
         {
-            Debug.Log("Here");
+            Debug.Log("Game finished");
         }
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.tag == "Collectable")
         {
-            Debug.Log("Pick Up");
             Destroy(other.gameObject, 0.1f);
+            collected++;
         }
     }
 
     private void OnGUI()
     {
-        float ration = stamina / maxStamina;
-        float rectWidth = ration * Screen.width / 3;
-        staminaRect.width = rectWidth;
-        GUI.DrawTexture(staminaRect, staminaTexture); 
+        float ratio = stamina / maxStamina;
+        staminaBarFull.fillAmount = ratio;
+        staminaBarLow.fillAmount = ratio;
+
+        if (ratio < 0.3f)
+        {
+            staminaBarFull.enabled = false;
+            staminaBarLow.enabled = true;
+        }
+        else
+        {
+            staminaBarFull.enabled = true;
+            staminaBarLow.enabled = false;
+        }
     }
 }
